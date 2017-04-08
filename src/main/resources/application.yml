@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: MongoDB工具
+    version: 1.0
+  data:
+    mongodb:
+      username:
+      password:
+      uri: mongodb://localhost:27017/test

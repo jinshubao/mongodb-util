@@ -1,11 +1,14 @@
 package com.jean.mongodb.entity;
 
+import org.springframework.data.annotation.Id;
+
 import java.io.Serializable;
 
 public class Person implements Serializable {
 
     private static final long serialVersionUID = 3617931430808763429L;
 
+    @Id
     private String id;
     private String name;
     private int age;
